@@ -1,0 +1,24 @@
+{
+    "RemoteIp": "127.0.0.1",
+    "RemotePort": "80",
+    "Routes":[
+        {
+            "Name": "xisocks",
+            "LocalIp": "127.0.0.1",
+            "LocalPort": "12341",
+            "Url": "upload"
+        },
+        {
+            "Name":"ssh",
+            "LocalIp":"127.0.0.1",
+            "LocalPort": "2200",
+            "Url": "user"
+        },
+        {
+            "Name":"exposer",
+            "LocalIp":"127.0.0.1",
+            "LocalPort": "11000",
+            "Url":"exposer"
+        }
+    ]
+}

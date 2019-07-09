@@ -1,0 +1,34 @@
+{
+    "ListenIp": "127.0.0.1",
+    "ListenPort": "80",
+    "Routes":[
+        {
+            "Name": "xisocks",
+            "Url": "upload",
+            "Type": "xisocks",
+            "Port":"12001"
+        },
+        {
+            "Name":"ssh",
+            "Url": "user",
+            "Type": "tcp",
+            "Port":"22"
+        },
+        {
+            "Name":"exposer",
+            "Url":"exposer",
+            "Type":"exposer",
+            "Port":"13001"
+        },
+        {
+            "Name":"echo",
+            "Url":"echo",
+            "Type":"echo"
+        },
+        {
+            "Name":"fakewebsite",
+            "Url":"",
+            "Type":"fakewebsite"
+        }
+    ]
+}
